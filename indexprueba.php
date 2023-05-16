@@ -77,7 +77,7 @@
                 </tr>
                 
                 <?php
-                $cnx = mysqli_connect("localhost", "root", "", "tiendaonline");
+                $cnx = mysqli_connect("18.223.110.185", "ubuntu", "", "tiendaonline");
                 $sql = "SELECT id, nombre, descripcion, precio, descuento, activo FROM productos ORDER BY id desc";
                 $rta = mysqli_query($cnx, $sql);
                 while ($mostrar = mysqli_fetch_row($rta)){
