@@ -43,7 +43,7 @@
 </style>
 
 <?php
-$cnx =mysqli_connect("localhost", "root", "", "tiendaonline");
+$cnx =mysqli_connect("18.223.110.185", "ubuntu", "", "tiendaonline");
 if(isset($_POST['buscar'])){
     $busqueda = $_POST['buscar'];
     $sql = "SELECT id, nombre, descripcion, precio, descuento, activo FROM productos WHERE id LIKE '%$busqueda%' OR nombre LIKE '%$busqueda%'";
