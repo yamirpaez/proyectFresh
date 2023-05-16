@@ -1,5 +1,5 @@
 <?php
-$cnx = mysqli_connect("localhost", "root", "", "tiendaonline");
+$cnx = mysqli_connect("18.223.110.185", "ubuntu", "", "tiendaonline");
 if(isset($_GET['id'])) {
     $id_producto = $_GET['id'];
     $sql = "SELECT id, nombre, descripcion, precio, descuento, activo FROM productos WHERE id = '$id_producto'";
