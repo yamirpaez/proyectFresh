@@ -2,9 +2,9 @@
 
 class DataBase
 {
-    private $hostname = "localhost";
+    private $hostname = "18.223.110.185";
     private $database ="tiendaonline";
-    private $username= "root";
+    private $username= "ubuntu";
     private $password= "";
     private $charset="utf8";
 
