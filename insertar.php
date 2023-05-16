@@ -8,7 +8,7 @@
     $activo = $_POST['activo'];
 
     //aqui manda toda la informacion nueva ala base de datos
-    $cnx = mysqli_connect("localhost", "root", "", "tiendaonline");
+    $cnx = mysqli_connect("18.223.110.185", "ubuntu", "", "tiendaonline");
     $sql = "INSERT INTO productos(id, nombre, descripcion, precio, descuento, activo) VALUES('$id_productos', '$nombre', '$descripcion', '$precio', '$descuento', '$activo')";
     $rta = mysqli_query($cnx, $sql);
 
