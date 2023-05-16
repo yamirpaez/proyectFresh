@@ -1,0 +1,78 @@
+
+
+
+.contenedor{
+    background-color:rgb(219, 124, 124);
+    border-radius: 1em;
+    border-color: tomato;
+    height: auto;
+    width: 29cm;
+    margin-left: 3cm;
+    margin-right: 10cm;
+}
+
+
+
+
+
+
+
+
+input {
+    border:1em;
+    margin: 10px;
+    border-radius: 0.30em;
+    height: 0.8cm;
+    width: 9cm;
+}
+
+
+
+.contenido {
+    background-color: rgb(216, 187, 187);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 80%;
+    margin: 50px;
+    border-radius: 0.5em;
+    padding: 2rem;
+    box-shadow: 0 0.1rem 0.4rem rgb(0 0 0 / 50%);
+}
+
+
+.cont-acciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cont-acciones button {
+    width: 15%;
+    height: 2rem;
+    margin: 0.5rem;
+}
+
+.contenedor-productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}
+
+.contenedor-productos label{
+    margin: 2rem;
+    font-weight: bolder;
+}
+
+.contenedor-lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}
+
+.contenedor-lista label{
+    margin: 2rem;
+}
